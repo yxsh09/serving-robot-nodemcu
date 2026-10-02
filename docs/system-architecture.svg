@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="1100" height="650" fill="white"/>
+<text x="550" y="40" text-anchor="middle" font-size="28" font-family="Arial">Serving Robot — System Architecture</text>
+<g font-family="Arial" font-size="18" stroke="black" stroke-width="2" fill="white">
+<rect x="430" y="90" width="240" height="80"/><text x="550" y="138" text-anchor="middle">NodeMCU ESP8266</text>
+<rect x="70" y="230" width="190" height="70"/><text x="165" y="272" text-anchor="middle">IR Line Sensors</text>
+<rect x="300" y="230" width="190" height="70"/><text x="395" y="272" text-anchor="middle">RFID Reader</text>
+<rect x="530" y="230" width="190" height="70"/><text x="625" y="272" text-anchor="middle">Ultrasonic</text>
+<rect x="760" y="230" width="190" height="70"/><text x="855" y="272" text-anchor="middle">Keypad + LCD</text>
+<rect x="430" y="390" width="240" height="70"/><text x="550" y="432" text-anchor="middle">L298N Motor Driver</text>
+<rect x="260" y="520" width="180" height="65"/><text x="350" y="560" text-anchor="middle">Left DC Motor</text>
+<rect x="660" y="520" width="180" height="65"/><text x="750" y="560" text-anchor="middle">Right DC Motor</text>
+<line x1="165" y1="230" x2="500" y2="170"/><line x1="395" y1="230" x2="530" y2="170"/>
+<line x1="625" y1="230" x2="590" y2="170"/><line x1="855" y1="230" x2="610" y2="170"/>
+<line x1="550" y1="170" x2="550" y2="390"/>
+<line x1="500" y1="460" x2="400" y2="520"/><line x1="600" y1="460" x2="700" y2="520"/>
+</g>
+<text x="550" y="625" text-anchor="middle" font-family="Arial" font-size="16">Line following + obstacle stop + RFID table identification + operator table selection</text>
+</svg>

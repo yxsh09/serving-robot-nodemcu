@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.piolibdeps/
+.vscode/
+.vscode/settings.json
+
+# Arduino
+*.elf
+*.hex
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local configuration
+include/secrets.h
